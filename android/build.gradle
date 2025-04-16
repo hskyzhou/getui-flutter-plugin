@@ -24,10 +24,10 @@ rootProject.allprojects {
 }
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 21
+    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 17
     }
     
     lintOptions {
@@ -41,6 +41,6 @@ repositories {
 }
 dependencies {
 
-     compileOnly('com.getui:gtsdk:3.3.10.0')
+     compileOnly('com.getui:gtsdk:3.3.7.0')
 
 }

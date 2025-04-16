@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.0'
+        classpath 'com.android.tools.build:gradle:8.2.0'
     }
 }
 rootProject.allprojects {
@@ -24,10 +24,10 @@ rootProject.allprojects {
 }
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 28
+    compileSdkVersion 33
 
     defaultConfig {
-        minSdkVersion 17
+        minSdkVersion 33
     }
     
     lintOptions {
@@ -41,6 +41,6 @@ repositories {
 }
 dependencies {
 
-     compileOnly('com.getui:gtsdk:3.3.7.0')
+     compileOnly('com.getui:gtsdk:3.3.10.0')
 
 }
